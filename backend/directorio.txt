@@ -1,0 +1,48 @@
+<h1> Directorio del proyecto </h1>
+
+./bot-hip  
+|-- src  
+    |-- authentication  
+        |-- application/usecases  
+        |-- domain  
+        |-- infraestructure  
+            |-- controllers  
+            |-- interfaces  
+            |-- middlewares  
+            |-- models  
+            |-- repositories  
+            |-- routes  
+    |-- document
+        |-- application/usecases  
+        |-- domain  
+        |-- infraestructure  
+            |-- controllers  
+            |-- interfaces  
+            |-- middlewares  
+            |-- models  
+            |-- repositories  
+            |-- routes  
+    |-- join 
+        |-- application/usecases  
+        |-- domain  
+        |-- infraestructure  
+            |-- controllers  
+            |-- interfaces  
+            |-- middlewares  
+            |-- models  
+            |-- repositories  
+            |-- routes  
+    |-- contract
+        |-- application/usecases  
+        |-- domain  
+        |-- infraestructure  
+            |-- controllers  
+            |-- interfaces  
+            |-- middlewares  
+            |-- models  
+            |-- repositories  
+            |-- routes  
+    |-- libs  
+    |-- main  
+|-- README.md  
+|-- directorio.txt

@@ -1,0 +1,292 @@
+{
+    "ScotiaBank Peru S.A.A.": [
+        {
+            "nombre": "MARISABEL DEL CARMEN DE LA CRUZ GOMEZ",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERA",
+            "profesion": "FUNCIONARIA",
+            "domicilio": "LIMA",
+            "dni": "42604708",
+            "representante": "banco",
+            "genero": "DOÑA"
+        },
+        {
+            "nombre": "KAREN JESSICA VALERA VALDIVIESO",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADA",
+            "profesion": "FUNCIONARIA",
+            "domicilio": "LIMA",
+            "dni": "09537909",
+            "representante": "banco",
+            "genero": "DOÑA"
+        }
+    ],
+    "Banco del Credito del Peru": [
+        {
+            "nombre": "PILAR HUAYNATE PORTEROS",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERA",
+            "profesion": "FUNCIONARIA",
+            "domicilio": "LIMA",
+            "dni": "41249404",
+            "representante": "banco",
+            "genero": "DOÑA"
+        },
+        {
+            "nombre": "ROSA MILAGROS ORMEÑO LLANCARI",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERA",
+            "profesion": "FUNCIONARIA",
+            "domicilio": "LIMA",
+            "dni": "42750484",
+            "representante": "banco",
+            "genero": "DOÑA"
+        }
+    ],
+    "Alcanfores": [
+        {
+            "nombre": "OSCAR RICARDO ORTIGOSA QUIMPER",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "07798084",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ENRIQUE GERMAN ANGULO BORJA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "09178529",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Quatro Beta": [
+        {
+            "nombre": "OSCAR RICARDO ORTIGOSA QUIMPER",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "07798084",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ENRIQUE GERMAN ANGULO BORJA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "09178529",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Quatro Epsilon": [
+        {
+            "nombre": "OSCAR RICARDO ORTIGOSA QUIMPER",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "07798084",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ENRIQUE GERMAN ANGULO BORJA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "09178529",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Vienna Contructores S.A.": [
+        {
+            "nombre": "LUIS ENRIQUE ARIAS CASTILLO",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "07858228",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Inversiones Rocazul S.A.C.": [
+        {
+            "nombre": "MARIO MANUEL SCHNEIDER KLEIMAN",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "07545478",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Miranda Constructores S.A.": [
+        {
+            "nombre": "JAVIER RAMON SALAZAR FLORES",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "FUNCIONARIO",
+            "domicilio": "LIMA",
+            "dni": "06450634",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "MAURICIO JOSE CABALLERO FARRO",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "FUNCIONARIO",
+            "domicilio": "LIMA",
+            "dni": "25831583",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Desarrollo y Proyectos Edifica": [
+        {
+            "nombre": "AIZEL JOHANNA OSTERLING REVELLI",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERA",
+            "profesion": "FUNCIONARIO",
+            "domicilio": "LIMA",
+            "dni": "42504973",
+            "representante": "inmobiliaria",
+            "genero": "DONA"
+        },
+        {
+            "nombre": "GUILLERMO ZUBIATE HENRICI",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERO",
+            "profesion": "FUNCIONARIO",
+            "domicilio": "LIMA",
+            "dni": "41303776",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Buenas Inversiones S.A.C.": [
+        {
+            "nombre": "VICTOR MANUEL ACOSTA MOSCOSO",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "07615681",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ANGEL RAUL PRINCIPE ESPINOZA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "42985296",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Paz Centenario S.A.": [
+        {
+            "nombre": "RICARDO ENRIQUE SWAYNE KLEIMAN",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "10559097",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "DIEGO ISAAC ABARCA OTAYZA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "10279342",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Promotora Albamar S.A.C.": [
+        {
+            "nombre": "JOSE RICARDO ESPANTOSO SALOM",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "09539833",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "EDUARDO CESAR FIGARI TESTINO",
+            "nacionalidad": "PERUANA",
+            "estado civil": "DIVORCIADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "10058496",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Espinoza Arquitectos S.A.C.": [
+        {
+            "nombre": "ENRIQUE FRANCISCO ESPINOZA BECERRA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "06361784",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ROCIO VELARDE COLOMA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADA",
+            "profesion": "EMPRESARIA",
+            "domicilio": "LIMA",
+            "dni": "41852321",
+            "representante": "inmobiliaria",
+            "genero": "DONA"
+        }
+    ],
+    "CP Building SAC": [
+        {
+            "nombre": "ALBERTO CARDENAS PEREZ",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "10770770",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        }
+    ],
+    "Josmi Grupo Inversor S.A.C.": [
+        {
+            "nombre": "VILMA VILCAPOMA VERASTEGUI",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERO",
+            "profesion": "EMPRESARIA",
+            "domicilio": "LIMA",
+            "dni": "10261397",
+            "representante": "inmobiliaria",
+            "genero": "DONA"
+        }
+    ]
+}

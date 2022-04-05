@@ -1,0 +1,75 @@
+{
+    "kardex": 21323,
+    "comparecientes": [
+        {
+            "nombre": "OSCAR RICARDO ORTIGOSA QUIMPER",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "07798084",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ENRIQUE GERMAN ANGULO BORJA",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "EMPRESARIO",
+            "domicilio": "LIMA",
+            "dni": "09178529",
+            "representante": "inmobiliaria",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ERNESTO FELIPE GOMEZ TORRES",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADO",
+            "profesion": "..........",
+            "domicilio": "JIRON JOSE DE LA TORRE UGARTE NUMERO 148, DISTRITO DE SAN MARTIN DE PORRES, PROVINCIA Y DEPARTAMENTO DE LIMA",
+            "dni": "09393094",
+            "representante": "propio",
+            "genero": "DON"
+        },
+        {
+            "nombre": "ELENA GERARDA AVALOS ZAVALETA DE GOMEZ",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADA",
+            "profesion": "..........",
+            "domicilio": "JIRON JOSE DE LA TORRE UGARTE NUMERO 148, DISTRITO DE SAN MARTIN DE PORRES, PROVINCIA Y DEPARTAMENTO DE LIMA",
+            "dni": "08131945",
+            "representante": "propio",
+            "genero": "DOÑA"
+        },
+        {
+            "nombre": "MARISABEL DEL CARMEN DE LA CRUZ GOMEZ",
+            "nacionalidad": "PERUANA",
+            "estado civil": "SOLTERA",
+            "profesion": "FUNCIONARIA",
+            "domicilio": "LIMA",
+            "dni": "42604708",
+            "representante": "banco",
+            "genero": "DOÑA"
+        },
+        {
+            "nombre": "KAREN JESSICA VALERA VALDIVIESO",
+            "nacionalidad": "PERUANA",
+            "estado civil": "CASADA",
+            "profesion": "FUNCIONARIA",
+            "domicilio": "LIMA",
+            "dni": "09537909",
+            "representante": "banco",
+            "genero": "DOÑA"
+        }
+    ],
+    "banco": {
+        "nombre": "SCOTIABANK PERU S.A.A.",
+        "ruc": "20100043140",
+        "domicilio": "DIONISIO DERTEANO NUMERO 102, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA"
+    },
+    "inmobiliaria": {
+        "nombre": "INVERSIONES INMOBILIARIAS ALCANFORES - S.A.C.",
+        "ruc": "20602816851",
+        "domicilio": "CALLE LOS ALCANFORES NUMERO 142, OFICINA 404, DISTRITO DE MIRAFLORES, PROVINCIA Y DEPARTAMENTO DE LIMA"
+    }
+}

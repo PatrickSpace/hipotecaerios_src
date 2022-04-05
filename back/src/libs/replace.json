@@ -1,0 +1,20 @@
+{
+    "key1": ["Á", "A"],
+    "key2": ["É", "E"],
+    "key3": ["Í", "I"],
+    "key4": ["Ó", "O"],
+    "key5": ["Ú", "U"],
+    "key6": ["!", "L"],
+    "key7": ["Y/0", "Y/O"],
+    "key8": ["N2", "N°"],
+    "key9": [" NG ", " N° "],
+    "key10": ["N9", "N°"],
+    "key11": ["(Y)", "(V)"],
+    "key12": ["FIAT", "FLAT"],
+    "key13": ["JECIMO", "DECIMO"],
+    "key14": ["PECIMO", "DECIMO"],
+    "key15": ["5/ ", "S/ "],
+    "key16": ["4A", "LA"],
+    "key17": ["REGISTRA)", "REGISTRAL"],
+    "key18": ["REGISTRA]", "REGISTRAL"]
+}

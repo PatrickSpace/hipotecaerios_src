@@ -1,0 +1,48 @@
+[{
+  "comparecientes_1": 
+    {
+      "nombre": "Alejandro Herrera",
+      "nacionalidad": "Peruano",
+      "estadocivil": "Soltero",
+      "profesion": "Comprador",
+      "domicilio": "Lima, Perú",
+      "dni": "11111111"
+    },
+    "comparecientes_2":
+    {
+      "nombre": "Carlos Gonzalez",
+      "nacionalidad": "Peruano",
+      "estadocivil": "Soltero",
+      "profesion": "Comprador",
+      "domicilio": "Lima, Perú",
+      "dni": "222222222"
+    },
+    "comparecientes_3":
+    {
+      "nombre": "Leander Miranda",
+      "nacionalidad": "Argentino",
+      "estadocivil": "Soltero",
+      "profesion": "Vendedor",
+      "domicilio": "Buenos Aires, Argentina",
+      "dni": "33333333"
+      },
+    "comparecientes_4":
+    {
+      "nombre": "Barack Obama",
+      "nacionalidad": "Estadounidense",
+      "estadocivil": "Soltero",
+      "profesion": "Funcionario (Banco)",
+      "domicilio": "New York, Estados Unidos",
+      "dni": "44444444"
+    },
+    "comparecientes_5":
+    {
+      "nombre": "Angela Merkel",
+      "nacionalidad": "Alemana",
+      "estadocivil": "Soltero",
+      "profesion": "Funcionario (Inmobiliaria)",
+      "domicilio": "Berlin, Alemania",
+      "dni": "55555555"
+    }
+  }
+]

@@ -1,0 +1,22 @@
+{
+    "INTERBANK": {
+        "nombre": "INTERBANK",
+        "ruc": "4324324234",
+        "domicilio": "DIONISIO DERTEANO NUMERO 102, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA"
+    },
+    "SCOTIABANK PERU S.A.A.": {
+        "nombre": "SCOTIABANK PERU S.A.A.",
+        "ruc": "20100043140",
+        "domicilio": "DIONISIO DERTEANO NUMERO 102, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA"
+    },
+    "BANCO DE CREDITO DEL PERU": {
+        "nombre": "BANCO DE CREDITO DEL PERU",
+        "ruc": "20100047218",
+        "domicilio": "AVENIDA JUAN DE ARONA N° 893, DISTRITO DE SAN ISIDRO, PROVINCIA Y DEPARTAMENTO DE LIMA"
+    },
+    "BANCO BBVA PERU": {
+        "nombre": "BANCO BBVA PERU",
+        "ruc": "20100130204",
+        "domicilio": "AVENIDA REPUBLICA DE PANAMA NO. 3055, SAN ISIDRO, LIMA"
+    }
+}

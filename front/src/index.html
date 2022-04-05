@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <!--<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">-->
+    <title>Paino-Hip</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+</head>
+
+<body class="" >
+    <!--div class="card-panel teal lighten-2">This is a card panel with a teal lighten-2 class</div-->
+    <div class="container mx-auto">
+        <div class="flex justify-center mt-3">
+            <div class="md:w-2/6"></div>
+            <div class="md:w-2/6">
+                <div class="card-panel z-depth-3 mt-4 "><img src="logo.png" height="40" alt="logo"></div>
+            </div>
+            <div class="md:w-2/6"></div>    
+        </div>
+    </div>
+    <div>
+    
+        <div class="content-center bg-gray-800 text-white text-center mt-10 font-black font-mono py-2 rounded-t-md ">
+            DOCUMENTACIÓN
+        </div>
+        <div class="border rounded-b-lg shadow-md pb-5">
+            <div class="grid lg:grid-cols-3 sm:grid-cols-1 mt-3">
+                <div class="">
+
+                    <div class="">
+                        <form class="flex justify-center w-full mb-4">
+                            <div id = "line-color-alert-minuta" class="flex items-center border-b border-teal-500 py-2 w-5/6">
+                                <input id = 'name-selector-minuta' class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nombre del archivo" aria-label="Full name" disabled>
+                            </div>
+                        </form>
+                    </div>
+
+
+                    <form id="form-minuta" class="flex w-full items-center justify-center bg-grey-lighter">
+                        <label class="w-64 flex flex-col items-center px-4 py-6 bg-white text-red-700 rounded-lg shadow-md tracking-wide uppercase border border-blue cursor-pointer hover:bg-gray-800 hover:text-white">
+                            <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
+                            </svg>
+                            <span class="mt-2 text-base leading-normal">Minuta</span>
+                            <input type='file' id="file-selector-minuta" multiple class="hidden" />
+                        </label>
+                    </form>
+
+                </div>
+
+                <div class="">
+
+                    <div class="">
+                        <form class="flex justify-center w-full mb-4">
+                            <div id = "line-color-alert-clausula" class="flex items-center border-b border-teal-500 py-2 w-5/6">
+                                <input id = 'name-selector-clausula' class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nombre del archivo" aria-label="Full name" disabled>
+                            </div>
+                        </form>
+                    </div>
+                    
+                    <form  id="form-clausula" class="flex w-full items-center justify-center bg-grey-lighter">
+                        <label class="w-64 flex flex-col items-center px-4 py-6 bg-white text-red-700 rounded-lg shadow-md tracking-wide uppercase border border cursor-pointer hover:bg-gray-800 hover:text-white">
+                            <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
+                            </svg>
+                            <span class="mt-2 text-base leading-normal">Cláusulas</span>
+                            <input type='file' id="file-selector-clausula" multiple class="hidden" />
+                        </label>
+                    </form>
+
+                </div>
+
+                <div class="">
+                    
+                    <div class="">
+                        <form class="flex justify-center w-full mb-4">
+                            <div  id = "line-color-alert-contrato" class="flex items-center border-b border-teal-500 py-2 w-5/6">
+                                <input  id = 'name-selector-contrato' class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="Nombre del archivo" aria-label="Full name" disabled>
+                            </div>
+                        </form>
+                    </div>
+
+                    <form id="form-contrato" class="flex w-full items-center justify-center bg-grey-lighter">
+                        <label class="w-64 flex flex-col items-center px-4 py-6 bg-white text-red-700 rounded-lg shadow-md tracking-wide uppercase border border-blue cursor-pointer hover:bg-gray-800 hover:text-white">
+                            <svg class="w-8 h-8" fill="currentColor" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                                <path d="M16.88 9.1A4 4 0 0 1 16 17H5a5 5 0 0 1-1-9.9V7a3 3 0 0 1 4.52-2.59A4.98 4.98 0 0 1 17 8c0 .38-.04.74-.12 1.1zM11 11h3l-4-4-4 4h3v3h2v-3z" />
+                            </svg>
+                            <span class="mt-2 text-base leading-normal">Contrato</span>
+                            <input type='file' id="file-selector-contrato" multiple class="hidden" />
+                        </label>
+                    </form>
+
+                </div>
+        
+            </div>
+
+            <div class="grid grid-cols-3 mt-10">
+                <div>
+                </div>
+
+                <div class="flex justify-center"> 
+                    <button id = "click-selector-procesar" class="bg-red-700 hover:bg-gray-800 text-white font-bold py-2 px-4 rounded w-2/4 shadow-md btnAll">
+                        Procesar
+                    </button>
+                </div>
+
+                <div>
+                </div>
+
+            </div>
+
+        </div>
+
+        
+        <div class="relative pt-1">
+            <div class="overflow-hidden h-5  mb-4 text-xs flex rounded bg-pink-200">
+                <div style="width:0%" class="shadow-none progress flex flex-col text-center text-lg  whitespace-nowrap text-white justify-center bg-pink-500"></div>
+              </div>
+	    </div>
+
+        <div class="content-center bg-gray-800 text-white text-center mt-10 font-black font-mono py-2 rounded-t-md">
+            COMPARECIENTES
+        </div>
+
+        <div class="grid md:grid-cols-2 border rounded-b-md mb-7 shadow-md">
+
+            <div class="w-full max-w-screen-xl mx-auto px-6">
+                <div class="flex justify-center p-4 px-3 py-10">
+                    <div class="w-full max-w-md">
+                        <div class="bg-white shadow-lg rounded-lg px-3 py-2 mb-4">
+                            <div class="block text-white text-lg font-semibold py-3 px-3 -mx-3 mb-6 rounded-t-lg bg-gray-800">
+                                Lista
+                            </div>
+                            <div class="flex items-center bg-gray-200 rounded-md">
+                                <div class="pl-2">
+                                    <svg class="fill-current text-gray-500 w-6 h-6" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 24 24">
+                                        <path class="heroicon-ui"
+                                            d="M16.32 14.9l5.39 5.4a1 1 0 0 1-1.42 1.4l-5.38-5.38a8 8 0 1 1 1.41-1.41zM10 16a6 6 0 1 0 0-12 6 6 0 0 0 0 12z" />
+                                    </svg>
+                                </div>
+                                <input
+                                    class="w-full rounded-md bg-gray-200 text-gray-700 leading-tight focus:outline-none py-2 px-2"
+                                    id="search" type="text" placeholder="Search teams or members">
+                            </div>
+                            <div id = "comparecientes-list" class="padre py-3 text-sm">
+                                
+                            </div>
+                            <div class="block bg-red-700 text-sm text-right py-2 px-3 -mx-3 -mb-2 rounded-b-lg">
+                                <button id = "process-btn-comparecientes-eliminar" class="hover:bg-white hover:text-red-700 text-white font-bold py-2 px-4 rounded btnAll" >
+                                    Eliminar 
+                                </button>
+                                <button id = "process-btn-comparecientes-añadir" class="hover:bg-white hover:text-red-700 text-white font-bold py-2 px-4 rounded btnAll">
+                                    Añadir 
+                                </button>
+                                <button id = "process-btn-comparecientes" class="hover:bg-white hover:text-red-700 text-white font-bold py-2 px-4 rounded btnAll">
+                                    Procesar 
+                                </button>
+                                <!--button class="hover:bg-white hover:text-red-700 text-white font-bold py-2 px-4 rounded">
+                                    Guardar
+                                </button-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id = "res" class="my-auto">
+
+                <form id="formCompa">
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span>Nombre: </span>
+                            <input id = "compa-nombre" name="nombre" class="uppercase text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div>
+        
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span>Nacionalidad: </span>
+                            <input id = "compa-nacionalidad" name="nacionalidad" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div>
+
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Estado Civil: </span>
+                            <select id = "compa-estado civil" name="estadoCivil" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                                <option> </option>
+                                <option>SOLTERO</option>
+                                <option>CASADO</option>
+                                <option>DIVORCIADO</option>
+                                <option>VIUDO</option>
+                            </select>
+                        </div>
+                    </div>  
+        
+                    <!--div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Estado Civil: </span>
+                            <input id = "compa-estado civil" name="estadoCivil" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div-->
+        
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Profesion: </span>
+                            <input id = "compa-profesion" name="profesion" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div>
+        
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Domicilio: </span>
+                            <input id = "compa-domicilio" name="domicilio" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div>
+        
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">DNI: </span>
+                            <input id = "compa-dni" name="dni" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div>
+
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Representante: </span>
+                            <select id = "compa-representante" name="representante" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                                <option>CLIENTE</option>
+                                <option>BANCO</option>
+                                <option>INMOBILIARIA</option>
+                            </select>
+                        </div>
+                    </div>  
+        
+                    <!--div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Representante: </span>
+                            <input id = "compa-representante" name="representante" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div-->
+        
+                    <!--div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Genero: </span>
+                            <input id = "compa-genero" name="genero" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                        </div>
+                    </div-->
+
+                    <div class="w-4/5 mb-4 ml-7">
+                        <div class="flex items-center border-b border-teal-500 py-2">
+                            <span class="w-40">Tratamiento: </span>
+                            <select id = "compa-genero" name="genero" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none uppercase" type="text" placeholder="" aria-label="Full name">
+                                <option>DOÑA</option>
+                                <option>DON</option>
+                            </select>
+                        </div>
+                    </div>                    
+                </form>
+
+                <!--form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span>Nombre: </span>
+                        <input id = "compa-nombre" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form>
+
+                <form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span>Nacionalidad: </span>
+                        <input id = "compa-nacionalidad" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form>
+
+                <form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span class="w-40">Estado Civil: </span>
+                        <input id = "compa-estado civil" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form>
+
+                <form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span class="w-40">Profesion: </span>
+                        <input id = "compa-profesion" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form>
+
+                <form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span class="w-40">Domicilio: </span>
+                        <input id = "compa-domicilio" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form>
+
+                <form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span class="w-40">DNI: </span>
+                        <input id = "compa-dni" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form>
+
+                <form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span class="w-40">Representante: </span>
+                        <input id = "compa-representante" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form>
+
+                <form class="w-4/5 mb-4 ml-7">
+                    <div class="flex items-center border-b border-teal-500 py-2">
+                        <span class="w-40">Genero: </span>
+                        <input id = "compa-genero" class="text-center appearance-none bg-transparent border-none w-full text-gray-700 mr-3 py-1 px-2 leading-tight focus:outline-none" type="text" placeholder="" aria-label="Full name">
+                    </div>
+                </form-->
+
+            </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-5 mb-10">
+            <div>
+                <div class="content-center bg-gray-800 text-white text-center mt-3 font-black font-mono py-2 rounded-t-md">
+                    DATOS DEL BANCO
+                </div>
+
+                <div class="h-60 justify-center ">
+                
+
+                    <div class="h-full w-full rounded-b-md border overflow-hidden shadow-md">
+                        <div class="px-12 py-8">
+                            <p id = "process-banco-nombre" contenteditable="false" class="font-bold text-xl mb-2 ">Nombre del Banco : </p>
+                                <hr>
+                                <p><b>RUC: </b><p id="process-banco-ruc" contenteditable="false" class="text-base"></p>
+                                <p> <b>DOMICILIO: </b><p id="process-banco-domicilio" contenteditable="false" class="text-gray-700 text-base"></p>   
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+           
+            <div>
+                <div  class="content-center bg-gray-800 text-white text-center mt-3 font-black font-mono py-2 rounded-t-md">
+                    DATOS DE LA INMOBILIARIA
+                </div>
+
+                <div class="h-60 justify-center">
+                
+
+                    <div class="h-full w-full rounded-b-md border overflow-hidden shadow-md">
+                        <div class="px-12 py-8">
+                                <p id = "process-inmobiliaria-nombre" contenteditable="false" class="font-bold text-xl mb-2 ">Nombre de la Inmobiliaria : </p>
+                                <hr>
+                                <p><b>RUC: </b><p id="process-inmobiliaria-ruc" contenteditable="false" class="text-base"></p>
+                                <p> <b>DOMICILIO: </b><p id="process-inmobiliaria-domicilio" contenteditable="false" class="text-gray-700 text-base"></p>   
+                        </div>
+                    </div>
+                    
+
+                </div>
+
+            </div>
+        </div>
+
+        <div>
+            <div  class="content-center bg-gray-800 text-white text-center mt-3 font-black font-mono py-2 rounded-t-md">
+                KARDEX
+            </div>
+
+            <div class="h-60 justify-center">
+            
+
+                <div class="w-full rounded-b-md border overflow-hidden shadow-md">
+                    <div class="flex px-12 py-8">
+                            <p id = "" contenteditable="false" class="font-bold text-xl mb-2 w-2/6">Numero de Kardex : </p>
+                            <input id="kardex-input" class="w-full border-b"/>
+                    </div>
+                </div>
+                
+
+            </div>
+
+        </div>
+
+        <!--/div-->
+    </div>
+
+    <div class="relative pt-1">
+        <div class="overflow-hidden h-5  mb-4 text-xs flex rounded bg-pink-200">
+            <div style="width:0%" class="shadow-none progressG flex flex-col text-center text-lg  whitespace-nowrap text-white justify-center bg-pink-500"></div>
+          </div>
+    </div>
+
+
+   
+    <footer class="footer">
+        <div class="flex space-x-4 justify-center mt-5">
+            <button id="btn-generate" class="bg-red-700 hover:bg-gray-800 text-white btnAll hover:text-white hover:border-red-700 font-bold py-2 px-4 rounded w-1/6 shadow-2xl rounded-md">
+                GENERAR DOCUMENTO
+            </button>
+            <!--button id="btn-finalizar" class="bg-red-700 hover:bg-gray-800 text-white  hover:text-white hover:border-red-700 font-bold py-2 px-4 rounded w-1/6 shadow-2xl rounded-md">
+                FINALIZAR
+            </button-->
+        </div>
+        <div class="container mx-auto px-6">
+            <div class="mt-16 flex flex-col items-center">
+                <div class="sm:w-2/3 text-center py-6">
+                    <p class="text-sm text-gray-800 font-bold mb-2">
+                        ©Copyright 2021 by DT-DATA
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!--<script src="compa.js"></script>-->
+    <!--<script src= 'aux.js'></script>
+    <script src= 'doc.js'></script>-->
+    <script src='index.js'></script>
+    <script src='documentacion.js'></script>
+    <script src='comparecientes.js'></script>
+    <!--script src= 'gen.js'></script-->
+    <!-- <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js%22%3E</script> -->
+</body>
+
+</html>
